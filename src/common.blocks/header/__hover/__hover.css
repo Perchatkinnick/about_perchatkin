@@ -1,0 +1,9 @@
+.header__hover{
+    box-shadow: 0 0 10px rgba(190, 184, 184, 0.5);
+    transition: all 0.9s ease-out;
+    text-shadow: 1px 1px 2px #072929, 8px 6px 1px rgba(190, 184, 184, 0.5);
+}
+
+.header__hover .menu{
+    color: rgba(190, 184, 184, 0.5);
+}

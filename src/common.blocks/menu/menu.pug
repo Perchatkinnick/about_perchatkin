@@ -1,0 +1,15 @@
+style
+    include ./menu.css
+    include ../../styles/media.css
+    include ./__about/__about.css
+    include ./__contacts/__contacts.css
+    include ./__tech/__tech.css
+    include ./__works/__works.css
+
+include ../item/item.pug
+
+.menu
+    +item('контакты')
+    +item('мои работы |')
+    +item('мои технологии |')
+    +item('обо мне |')
