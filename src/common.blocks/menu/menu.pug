@@ -5,11 +5,13 @@ style
     include ./__contacts/__contacts.css
     include ./__tech/__tech.css
     include ./__works/__works.css
+    include ./__row/__row.css
+    include ./__visible/__visible.css
 
 include ../item/item.pug
 
 .menu
-    +item('контакты')
-    +item('мои работы |')
-    +item('мои технологии |')
-    +item('обо мне |')
+    +item('контакты')(class='menu__row')
+    +item('мои работы |')(class='menu__row')
+    +item('мои технологии |')(class='menu__row')
+    +item('обо мне |')(class='menu__row')

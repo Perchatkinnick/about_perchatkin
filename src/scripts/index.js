@@ -9,12 +9,14 @@ import '@fonts/fontawesome/all.min.css';
 import '@fonts/iconfont/material-icons.css';
 
 import {addShadow} from '@blocks/logo/logo'
+import {onNaviconClickHandler} from '@blocks/navicon/navicon'
 
 addShadow();
 const supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
 console.log('supportTouch is ' + supportsTouch);
 const header = document.querySelector('.header');
-
+const navicon = document.querySelector('.navicon');
+navicon.addEventListener('click', onNaviconClickHandler);
 
 if(supportsTouch){
     showHeader();

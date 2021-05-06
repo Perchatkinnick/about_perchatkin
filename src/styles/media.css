@@ -1,3 +1,9 @@
+@media (min-width: 1500px){
+    .navicon{
+        color: #072929;
+    }
+}
+
 @media (max-width: 1500px){
 
     .header {
@@ -15,6 +21,10 @@
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, 0);
+    }
+
+    .navicon{
+        color: #072929;
     }
 }
 
@@ -43,20 +53,43 @@
     .item {
         font-size: 16px;
     }
+
+    .navicon{
+        color: #072929;
+    }
 }
 
 @media (max-width: 680px){
-    .item {
-        
+    .navicon{
+        color:rgba(190, 184, 184, 0.5);
+    }
+
+    .menu{
+        visibility: hidden;
+        width: 200px;
+        left: 110px;
+    }
+
+    .menu__row {
+        float: none;
+    }
+
+    .header{
+        height: 50px;
     }
 }
     
 
-@media (max-width: 450px){
+@media (max-width: 500px){
+
+    .navicon{
+        color:rgba(190, 184, 184, 0.5);
+    }
 
     .header {
         box-shadow: 0 0 10px rgba(190, 184, 184, 0.5);
-        text-shadow: 1px 1px 2px #072929, 8px 6px 1px rgba(190, 184, 184, 0.5);
+        text-shadow: 1px 1px 2px #072929, 3px 3px 1px rgba(190, 184, 184, 0.5);
+        height: 50px;
     }
 
     .logo {

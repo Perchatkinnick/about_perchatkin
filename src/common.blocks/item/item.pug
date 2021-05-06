@@ -3,5 +3,6 @@ style
     include ../../styles/media.css
 
 mixin item(content, link)
-    .item 
+    - const classes = ['item', attributes.class]
+    div(class=classes)
         a(href=link) #{content}
