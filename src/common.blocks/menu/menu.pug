@@ -1,17 +1,13 @@
 style
     include ./menu.css
     include ../../styles/media.css
-    include ./__about/__about.css
-    include ./__contacts/__contacts.css
-    include ./__tech/__tech.css
-    include ./__works/__works.css
     include ./__row/__row.css
-    include ./__visible/__visible.css
 
 include ../item/item.pug
 
 .menu
-    +item('контакты')(class='menu__row')
-    +item('мои работы |')(class='menu__row')
-    +item('мои технологии |')(class='menu__row')
-    +item('обо мне |')(class='menu__row')
+    +item('контакты', '#contacts')(class='menu__row')
+    +item('мои работы |', '#portfolio')(class='menu__row')
+    +item('мои технологии |', '#tech')(class='menu__row')
+    +item('обо мне |', '#about')(class='menu__row')
+    +item('главная |', '#home')(class='menu__row')

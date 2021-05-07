@@ -1,6 +1,5 @@
 import * as $ from 'jquery';
 
-import '@styles/media.css';
 import '@styles/main.css';
 import '@styles/index.css';
 import '@styles/reset.css';

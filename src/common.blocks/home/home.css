@@ -1,0 +1,9 @@
+.home{
+    width: 100%;
+}
+
+.homebgrd{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
