@@ -1,3 +1,10 @@
 .text__third{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-row-end: 6;
+    grid-column-end: 4;
+    font-size: 25px;
     
+    display: flex;
+    align-items: center;
 }

@@ -1,3 +1,10 @@
 .text__hi{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 5;
+
     
+    display: flex;
+    align-items: center;
 }

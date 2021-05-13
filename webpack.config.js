@@ -49,7 +49,10 @@ const plugins = () => {
         new HTMLWebpackPlugin({
             filename: 'index.html',
             chunks: ['main'],
-            template: path.resolve(__dirname, 'src/pages/index') + '/index.pug'
+            template: path.resolve(__dirname, 'src/pages/index') + '/index.pug',
+            minify: {
+                collapseWhitespace: isProd
+            }
         }),
          new CleanWebpackPlugin(),
 
