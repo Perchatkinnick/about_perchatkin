@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -49,7 +50,6 @@ const plugins = () => {
             filename: 'index.html',
             chunks: ['main'],
             template: path.resolve(__dirname, 'src/pages/index') + '/index.pug'
-            //template: './pages/index/index.html'
         }),
          new CleanWebpackPlugin(),
 
@@ -57,11 +57,20 @@ const plugins = () => {
             patterns: [{
                  from: path.resolve(__dirname, 'src/media/images/bgrd.jpg'),
                  to: path.resolve(__dirname, 'dist/media/images/bgrd.jpg')
-            }, ]
+            }, 
+            {
+                from: path.resolve(__dirname, 'src/media/images/gallery'),
+                to: path.resolve(__dirname, 'dist/media/images/gallery')
+           },]
         }),
         new MiniCssExtractPlugin({
             filename: fileName('css'),
             ignoreOrder: true,
+        }), 
+        new webpack.ProvidePlugin({
+            $: "jquery/dist/jquery.min.js",
+            jQuery: "jquery/dist/jquery.min.js",
+            "window.jQuery": "jquery/dist/jquery.min.js"
         })
     ];
 
@@ -96,7 +105,7 @@ module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
     entry: {
-        main: ['@babel/polyfill', './scripts/index'],
+        main: ['@babel/polyfill', './scripts/index', '@fancyapps/fancybox/dist/jquery.fancybox'],
     },
     output: {
         filename: fileName('js'),

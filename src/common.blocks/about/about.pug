@@ -1,5 +1,11 @@
 style
     include ./about.css
+    include ./__text/__text.css
+    include ./__gallery/__gallery.css
 
 .about
     a(name="about")
+    .about__text
+        include ../text/text.pug
+    .about__gallery 
+        include ../gallery/gallery.pug

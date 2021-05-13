@@ -1,5 +1,3 @@
-import * as $ from 'jquery';
-
 function addShadow(){
     $(function ($) {
         $(document).ready(function(){
