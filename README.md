@@ -1,1 +1,1 @@
-https://perchatkinnick.github.io/about_perchatkin/
+https://perchatkinnick.github.io/about_perchatkin/index.html
