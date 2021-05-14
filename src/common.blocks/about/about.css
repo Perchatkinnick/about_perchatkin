@@ -1,4 +1,4 @@
 .about{
     width: 100%;
-    background: rgba(190, 184, 184, 0.5);
+    background: var(--orange-color);
 }

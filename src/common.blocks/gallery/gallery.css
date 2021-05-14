@@ -1,5 +1,8 @@
 .gallery{
   /* transform: rotate(7deg); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .fancybox-bg {

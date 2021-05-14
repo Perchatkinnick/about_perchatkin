@@ -9,6 +9,7 @@
 
 .slider {
     position: relative;
+    background: var(--accent);
   }
   
   .slider__container {
@@ -32,6 +33,7 @@
   .slider__item {
     flex: 0 0 100%;
     max-width: 16.6666%;
+    height: auto;
     user-select: none;
   }
   

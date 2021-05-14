@@ -3,7 +3,6 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	
 }
 
 body {
@@ -11,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 
-	background: rgba(190, 184, 184, 0.5);
+	background: var(--body-bgrd);
 }
 
 .wrapper {
@@ -21,12 +20,17 @@ body {
 	max-width: 1500px;
 
 
-	background: #072929;
+	background: var(--primary-color);
 	cursor: url('../media/images/cursor.png'), pointer;
 }
 
 a {
-	color: #072929;
+	color: var(--primary-color);
 	text-decoration: none;
 	cursor: url('../media/images/link.png'), pointer; 
+}
+
+a img{
+	max-width: 100%;
+    height: auto;
 }

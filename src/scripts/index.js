@@ -1,4 +1,5 @@
 import '@styles/main.css';
+import '@styles/color-sheme.css';
 import '@styles/index.css';
 import '@styles/reset.css';
 import '@fonts/montserrat.css';
@@ -38,3 +39,5 @@ addGallery();
 const slider = new ChiefSlider('.slider', {
     loop: true
   });
+
+  

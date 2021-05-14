@@ -1,0 +1,19 @@
+/* CSS HEX */
+:root{
+    --primary-color: #264653ff;
+    --light_primary-color: #2a9d8fff;
+    --orange-color: #e9c46aff;
+    --primary-orange: #f4a261ff;
+    --accent: #e76f51ff;
+    --body-bgrd: #BEB8B8;
+}
+
+
+/* CSS HSL */
+.CSS_HSL{
+/*--charcoal: hsla(197, 37%, 24%, 1);
+--persian-green: hsla(173, 58%, 39%, 1);
+--orange-yellow-crayola: hsla(43, 74%, 66%, 1);
+--sandy-brown: hsla(27, 87%, 67%, 1);
+--burnt-sienna: hsla(12, 76%, 61%, 1);*/
+}

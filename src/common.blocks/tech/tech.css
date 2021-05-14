@@ -1,5 +1,5 @@
 .tech{
     width: 100%;
     height: 600px;
-    background: darkorchid;
+    background: var(--primary-color);
 }

@@ -5,6 +5,6 @@
     width: 40px;
     height: 40px;
     text-shadow: none;
-    
+    color: var(--primary-color);
     font-size: 40px;
 }
