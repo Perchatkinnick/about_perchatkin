@@ -1,5 +1,97 @@
 .tech{
     width: 100%;
-    height: 600px;
     background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.tech__wrap{
+    display: grid;
+    width: 760px;
+    height: 525px;
+    margin: 20px;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 5px;
+}
+
+.tech__pug{
+    background: no-repeat url(./media/images/techs/pug.jpg);
+    background-size: contain;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 3;
+}
+
+.tech__bem{
+    background: no-repeat url(./media/images/techs/bem.jpg);
+    background-size: contain;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 6;
+}
+
+.tech__fancybox{
+    background: no-repeat url(./media/images/techs/fancybox.jpg);
+    background-size: contain;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-row-end: 8;
+    grid-column-end: 4;
+}
+
+.tech__figma{
+    background: no-repeat url(./media/images/techs/figma.jpg);
+    background-size: contain;
+    grid-row-start: 5;
+    grid-column-start: 4;
+    grid-row-end: 9;
+    grid-column-end: 6;
+}
+
+.tech__trio{
+    background: no-repeat url(./media/images/techs/trio.jpg);
+    background-size: contain;
+    grid-row-start: 5;
+    grid-column-start: 6;
+    grid-row-end: 8;
+    grid-column-end: 9;
+}
+
+.tech__grid{
+    background: no-repeat url(./media/images/techs/grid.jpg);
+    background-size: contain;
+    grid-row-start: 9;
+    grid-column-start: 4;
+    grid-row-end: 12;
+    grid-column-end: 7;
+}
+
+.tech__webpack {
+    background: no-repeat url(./media/images/techs/webpack.jpg);
+    background-size: contain;
+    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-row-end: 12;
+    grid-column-end: 4;
+}
+
+.tech__responsive {
+    background: no-repeat url(./media/images/techs/responsive.jpg);
+    background-size: contain;
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: 4;
+    grid-column-end: 9;
+}
+
+.tech__vscode{
+    background: no-repeat url(./media/images/techs/vscode.jpg);
+    background-size: contain;
+    grid-row-start: 8;
+    grid-column-start: 7;
+    grid-row-end: 12;
+    grid-column-end: 9;
 }
