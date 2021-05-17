@@ -66,9 +66,14 @@ const plugins = () => {
                 to: path.resolve(__dirname, 'dist/media/images/gallery')
            },
            {
-            from: path.resolve(__dirname, 'src/media/images/techs'),
-            to: path.resolve(__dirname, 'dist/media/images/techs')
-            },]
+                from: path.resolve(__dirname, 'src/media/images/techs'),
+                to: path.resolve(__dirname, 'dist/media/images/techs')
+            },
+            {
+                from: path.resolve(__dirname, 'src/scripts/send.php'),
+                to: path.resolve(__dirname, 'dist/send.php')
+            },
+        ]
         }),
         new MiniCssExtractPlugin({
             filename: fileName('css'),
