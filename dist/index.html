@@ -1,6 +1,6 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="786.b79672a2082d4e99b2f0.js"></script><script defer="defer" src="main.b79672a2082d4e99b2f0.js"></script><link href="main.b79672a2082d4e99b2f0.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="786.5406dfa43f13a6df1be8.js"></script><script defer="defer" src="main.5406dfa43f13a6df1be8.js"></script><link href="main.5406dfa43f13a6df1be8.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
     position: relative;
     height: 100px;
 }.header__hover{
@@ -728,9 +728,31 @@
     background: var(--light_primary-color);
 }</style><div class="portfolio"><a name="portfolio"></a></div><style>.contacts{
     width: 100%;
-    height: 600px;
     background: var(--orange-color);
-}</style><div class="contacts"><a name="contacts"><form action="send.php" method="POST"><input type="text" name="name" placeholder="Ваше имя"> <input type="text" name="phone" placeholder="Ваш телефон"> <input type="submit" class="btn"></form></a></div></div><style>.footer{
+}</style><div class="contacts"><a name="contacts"></a><style>.form{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10%;
+}.form__email{
+    width: 45%;
+    margin: 10px;
+}.form__name{
+    width: 45%;
+    margin: 10px;
+}.form__message{
+    width: 75%;
+    margin: 10px;
+}.form__button{
+    width: 30%;
+    margin: 10px;
+}.title{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--primary-color);
+}</style><form class="form" method="POST" action="https://formspree.io/f/mwkalwwk"><div class="title">Отправьте мне сообщение</div><input class="form__email" placeholder="Ваш Email" type="email" name="email"> <input class="form__name" placeholder="Ваше имя" name="name"> <textarea class="form__message" name="message" placeholder="Ваше сообщение" rows="5"></textarea> <button class="form__button" type="submit">Отправить</button></form></div></div><style>.footer{
     height: 150px;
     
 }</style><div class="footer"><style>.logo{

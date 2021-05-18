@@ -7,18 +7,20 @@ import '@fonts/fontawesome/all.min.css';
 import '@fonts/iconfont/material-icons.css';
 import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
 
-import {addShadow} from '@blocks/logo/logo'
-import {ChiefSlider} from '@blocks/slider/slider'
-import {addGallery} from '@blocks/gallery/gallery'
-import {onNaviconClickHandler} from '@blocks/navicon/navicon'
+import {cleanForm} from '@blocks/form/__button/__button'
+import {addShadow} from '@blocks/logo/logo';
+import {ChiefSlider} from '@blocks/slider/slider';
+import {addGallery} from '@blocks/gallery/gallery';
+import {onNaviconClickHandler} from '@blocks/navicon/navicon';
 
+
+cleanForm();
 addShadow();
 const supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
 console.log('supportTouch is ' + supportsTouch);
 const header = document.querySelector('.header');
 const navicon = document.querySelector('.navicon');
 navicon.addEventListener('click', onNaviconClickHandler);
-
 
 if(supportsTouch){
     showHeader();
