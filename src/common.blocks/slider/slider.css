@@ -9,7 +9,8 @@
 
 .slider {
     position: relative;
-    background: var(--accent);
+    background: var(--primary-color);
+    margin: 10px;
   }
   
   .slider__container {

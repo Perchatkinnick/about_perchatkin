@@ -1,4 +1,7 @@
 .contacts{
     width: 100%;
-    background: var(--orange-color);
+    /* background: var(--orange-color); */
+    background-image: url(media/images/bgrd-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }

@@ -69,6 +69,10 @@ const plugins = () => {
                 from: path.resolve(__dirname, 'src/media/images/techs'),
                 to: path.resolve(__dirname, 'dist/media/images/techs')
             },
+            {
+                from: path.resolve(__dirname, 'src/media/images/bgrd-contact.jpg'),
+                to: path.resolve(__dirname, 'dist/media/images/bgrd-contact.jpg')
+            }, 
             // {
             //     from: path.resolve(__dirname, 'src/scripts/send.php'),
             //     to: path.resolve(__dirname, 'dist/send.php')

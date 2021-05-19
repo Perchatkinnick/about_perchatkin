@@ -5,21 +5,52 @@ include ./__img/__img.pug
 .tech
     a(name="tech")
     .tech__wrap
-        div(class="tech__webpack scale")
-            +img('media/images/techs/webpack.jpg')
-        div(class="tech__bem scale")
-            +img('media/images/techs/bem.jpg')
-        div(class="tech__fancybox scale")
-            +img('media/images/techs/fancybox.jpg')
-        div(class="tech__figma scale")
-            +img('media/images/techs/figma.jpg')
-        div(class="tech__trio scale")
-            +img('media/images/techs/trio.jpg')
-        div(class="tech__grid scale")
-            +img('media/images/techs/grid.jpg')
-        div(class="tech__pug scale")
-            +img('media/images/techs/pug.jpg')
-        div(class="tech__responsive scale")
-            +img('media/images/techs/responsive.jpg')
-        div(class="tech__vscode scale")
-            +img('media/images/techs/vscode.jpg')
+        ul(id="categories" class="clr")
+            li(class="pusher")
+            li
+                div
+                    +img('media/images/techs/webpack.jpg')
+                    h1 Webpack
+                    p is a bundler for modules
+            li
+                div
+                    +img('media/images/techs/bem.jpg')
+                    h1 BEM
+                    p is a methodology to web development
+            li
+                div
+                    +img('media/images/techs/fancybox.jpg')
+                    h1 fancybox
+                    p Some sample text about the article this hexagon leads to
+            li
+                div
+                    +img('media/images/techs/figma.jpg')
+                    h1 Figma
+                    p Some sample text about the article this hexagon leads to
+                li(class="pusher")
+            li
+                div
+                    +img('media/images/techs/trio.jpg')
+                    h1 HTML-CSS-JS
+                    p Some sample text about the article this hexagon leads to
+            li
+                div
+                    +img('media/images/techs/grid.jpg')
+                    h1 Layout Grid
+                    p Some sample text about the article this hexagon leads to
+            li(class="pusher")
+            li
+                div
+                    +img('media/images/techs/pug.jpg')
+                    h1 pug
+                    p Some sample text about the article this hexagon leads to
+            li
+                div
+                    +img('media/images/techs/responsive.jpg')
+                    h1 responsive
+                    p Some sample text about the article this hexagon leads to
+            li
+                div
+                    +img('media/images/techs/vscode.jpg')
+                    h1 VSCode
+                    p Some sample text about the article this hexagon leads to
