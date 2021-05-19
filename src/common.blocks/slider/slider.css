@@ -36,6 +36,16 @@
     height: auto;
     user-select: none;
   }
+
+  .scaleGallery{
+    transition: 1s;
+    
+    overflow: hidden;
+  }
+
+  .scaleGallery:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
   
   /* кнопки влево и вправо */
   

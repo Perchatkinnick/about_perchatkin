@@ -1,5 +1,5 @@
 mixin slide__item(number)
     .slider__item
-        div(style="padding: 5px;")
-            a(data-fancybox="gallery" class="photo" href=`./media/images/gallery/${number}.jpg`)
-                img(src=`./media/images/gallery/icons/${number}.png`)
+        div(style="margin: 5px; line-height: 0; overflow: hidden;")
+            a(data-fancybox="gallery" href=`./media/images/gallery/${number}.jpg`)
+                img(src=`./media/images/gallery/icons/${number}.png` class='scaleGallery')

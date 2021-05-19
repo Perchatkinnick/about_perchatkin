@@ -4,3 +4,15 @@
     font-size: 75px;
     color: var(--primary-color);
 }
+
+@media (max-width: 840px){
+    .logo {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 500px){
+    .logo {
+        
+    }
+}

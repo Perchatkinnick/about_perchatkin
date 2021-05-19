@@ -1,6 +1,6 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="786.5406dfa43f13a6df1be8.js"></script><script defer="defer" src="main.5406dfa43f13a6df1be8.js"></script><link href="main.5406dfa43f13a6df1be8.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="786.d3080518c4ce718e4834.js"></script><script defer="defer" src="main.d3080518c4ce718e4834.js"></script><link href="main.d3080518c4ce718e4834.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
     position: relative;
     height: 100px;
 }.header__hover{
@@ -18,14 +18,24 @@
     font-weight: bold;
     font-size: 75px;
     color: var(--primary-color);
+}
+
+@media (max-width: 840px){
+    .logo {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 500px){
+    .logo {
+        
+    }
 }</style><div class="logo"><h1>PERCHATKIN</h1></div><div class="header__menu"><style>.menu{
       width: 680px;
       float: right;
       z-index: 1000;
 }@media (min-width: 1500px){
-    .navicon{
-        
-    }
+
 }
 
 @media (max-width: 1500px){
@@ -46,10 +56,6 @@
         margin-right: -50%;
         transform: translate(-50%, 0);
     }
-
-    .navicon{
-        
-    }
 }
 
 @media (max-width: 840px){
@@ -57,10 +63,6 @@
     .header {
         height: 100px;
         text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
-    }
-
-    .logo {
-        font-size: 45px;
     }
 
     .menu {
@@ -75,10 +77,6 @@
 
     .item {
         font-size: 16px;
-    }
-
-    .navicon{
-        
     }
 }
 
@@ -112,10 +110,6 @@
     .header {
         text-shadow: 1px 1px 2px #122907, 3px 3px 1px var(--light_primary-color);
         height: 50px;
-    }
-
-    .logo {
-        font-size: 25px;
     }
 }
             .menu__row{
@@ -127,9 +121,7 @@
     text-shadow: none;
     margin: 0 4px;
 }@media (min-width: 1500px){
-    .navicon{
-        
-    }
+
 }
 
 @media (max-width: 1500px){
@@ -150,10 +142,6 @@
         margin-right: -50%;
         transform: translate(-50%, 0);
     }
-
-    .navicon{
-        
-    }
 }
 
 @media (max-width: 840px){
@@ -161,10 +149,6 @@
     .header {
         height: 100px;
         text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
-    }
-
-    .logo {
-        font-size: 45px;
     }
 
     .menu {
@@ -179,10 +163,6 @@
 
     .item {
         font-size: 16px;
-    }
-
-    .navicon{
-        
     }
 }
 
@@ -216,10 +196,6 @@
     .header {
         text-shadow: 1px 1px 2px #122907, 3px 3px 1px var(--light_primary-color);
         height: 50px;
-    }
-
-    .logo {
-        font-size: 25px;
     }
 }</style><div class="menu"><div class="item menu__row"><a href="#contacts">контакты</a></div><div class="item menu__row"><a href="#portfolio">мои работы |</a></div><div class="item menu__row"><a href="#tech">мои технологии |</a></div><div class="item menu__row"><a href="#about">обо мне |</a></div><div class="item menu__row"><a href="#home">главная |</a></div></div></div><style>.navicon {
     position: absolute;
@@ -232,9 +208,7 @@
     font-size: 40px;
 }
   @media (min-width: 1500px){
-    .navicon{
-        
-    }
+
 }
 
 @media (max-width: 1500px){
@@ -255,10 +229,6 @@
         margin-right: -50%;
         transform: translate(-50%, 0);
     }
-
-    .navicon{
-        
-    }
 }
 
 @media (max-width: 840px){
@@ -266,10 +236,6 @@
     .header {
         height: 100px;
         text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
-    }
-
-    .logo {
-        font-size: 45px;
     }
 
     .menu {
@@ -284,10 +250,6 @@
 
     .item {
         font-size: 16px;
-    }
-
-    .navicon{
-        
     }
 }
 
@@ -321,10 +283,6 @@
     .header {
         text-shadow: 1px 1px 2px #122907, 3px 3px 1px var(--light_primary-color);
         height: 50px;
-    }
-
-    .logo {
-        font-size: 25px;
     }
 }</style><div class="navicon">&#9776;</div></div><div class="content"><style>.home{
     width: 100%;
@@ -537,6 +495,16 @@
     height: auto;
     user-select: none;
   }
+
+  .scaleGallery{
+    transition: 1s;
+    
+    overflow: hidden;
+  }
+
+  .scaleGallery:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
   
   /* кнопки влево и вправо */
   
@@ -626,7 +594,7 @@
   
   .slider__indicators li.active {
     background-color: rgba(255, 255, 255, 0.9);
-  }</style><div class="slider"><div class="slider__container"><div class="slider__wrapper"><div class="slider__items"><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/0.jpg"><img src="./media/images/gallery/icons/0.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/1.jpg"><img src="./media/images/gallery/icons/1.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/2.jpg"><img src="./media/images/gallery/icons/2.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/3.jpg"><img src="./media/images/gallery/icons/3.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/4.jpg"><img src="./media/images/gallery/icons/4.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/5.jpg"><img src="./media/images/gallery/icons/5.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/6.jpg"><img src="./media/images/gallery/icons/6.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/7.jpg"><img src="./media/images/gallery/icons/7.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/8.jpg"><img src="./media/images/gallery/icons/8.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/9.jpg"><img src="./media/images/gallery/icons/9.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/10.jpg"><img src="./media/images/gallery/icons/10.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/11.jpg"><img src="./media/images/gallery/icons/11.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/12.jpg"><img src="./media/images/gallery/icons/12.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/13.jpg"><img src="./media/images/gallery/icons/13.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/14.jpg"><img src="./media/images/gallery/icons/14.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/15.jpg"><img src="./media/images/gallery/icons/15.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/16.jpg"><img src="./media/images/gallery/icons/16.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/17.jpg"><img src="./media/images/gallery/icons/17.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/18.jpg"><img src="./media/images/gallery/icons/18.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/19.jpg"><img src="./media/images/gallery/icons/19.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/20.jpg"><img src="./media/images/gallery/icons/20.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/21.jpg"><img src="./media/images/gallery/icons/21.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/22.jpg"><img src="./media/images/gallery/icons/22.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/23.jpg"><img src="./media/images/gallery/icons/23.png"></a></div></div><div class="slider__item"><div style="padding: 5px;"><a class="photo" data-fancybox="gallery" href="./media/images/gallery/24.jpg"><img src="./media/images/gallery/icons/24.png"></a></div></div></div></div></div><a class="slider__control" href="#" data-slide="prev"></a><a class="slider__control" href="#" data-slide="next"></a></div></div></div></div></div><style>.tech{
+  }</style><div class="slider"><div class="slider__container"><div class="slider__wrapper"><div class="slider__items"><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/0.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/0.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/1.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/1.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/2.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/2.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/3.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/3.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/4.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/4.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/5.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/5.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/6.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/6.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/7.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/7.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/8.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/8.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/9.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/9.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/10.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/10.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/11.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/11.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/12.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/12.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/13.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/13.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/14.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/14.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/15.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/15.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/16.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/16.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/17.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/17.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/18.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/18.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/19.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/19.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/20.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/20.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/21.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/21.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/22.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/22.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/23.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/23.png"></a></div></div><div class="slider__item"><div style="margin: 5px; line-height: 0; overflow: hidden;"><a data-fancybox="gallery" href="./media/images/gallery/24.jpg"><img class="scaleGallery" src="./media/images/gallery/icons/24.png"></a></div></div></div></div></div><a class="slider__control" href="#" data-slide="prev"></a><a class="slider__control" href="#" data-slide="next"></a></div></div></div></div></div><style>.tech{
     width: 100%;
     background: var(--primary-color);
     display: flex;
@@ -643,9 +611,16 @@
     grid-gap: 5px;
 }
 
+.scale {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
 .tech__pug{
-    background: no-repeat url(./media/images/techs/pug.jpg);
-    background-size: contain;
     grid-row-start: 1;
     grid-column-start: 1;
     grid-row-end: 5;
@@ -653,8 +628,6 @@
 }
 
 .tech__bem{
-    background: no-repeat url(./media/images/techs/bem.jpg);
-    background-size: contain;
     grid-row-start: 1;
     grid-column-start: 3;
     grid-row-end: 4;
@@ -662,8 +635,6 @@
 }
 
 .tech__fancybox{
-    background: no-repeat url(./media/images/techs/fancybox.jpg);
-    background-size: contain;
     grid-row-start: 5;
     grid-column-start: 1;
     grid-row-end: 8;
@@ -671,8 +642,6 @@
 }
 
 .tech__figma{
-    background: no-repeat url(./media/images/techs/figma.jpg);
-    background-size: contain;
     grid-row-start: 5;
     grid-column-start: 4;
     grid-row-end: 9;
@@ -680,8 +649,6 @@
 }
 
 .tech__trio{
-    background: no-repeat url(./media/images/techs/trio.jpg);
-    background-size: contain;
     grid-row-start: 5;
     grid-column-start: 6;
     grid-row-end: 8;
@@ -689,8 +656,6 @@
 }
 
 .tech__grid{
-    background: no-repeat url(./media/images/techs/grid.jpg);
-    background-size: contain;
     grid-row-start: 9;
     grid-column-start: 4;
     grid-row-end: 12;
@@ -698,8 +663,6 @@
 }
 
 .tech__webpack {
-    background: no-repeat url(./media/images/techs/webpack.jpg);
-    background-size: contain;
     grid-row-start: 9;
     grid-column-start: 1;
     grid-row-end: 12;
@@ -707,8 +670,6 @@
 }
 
 .tech__responsive {
-    background: no-repeat url(./media/images/techs/responsive.jpg);
-    background-size: contain;
     grid-row-start: 1;
     grid-column-start: 6;
     grid-row-end: 4;
@@ -716,13 +677,24 @@
 }
 
 .tech__vscode{
-    background: no-repeat url(./media/images/techs/vscode.jpg);
-    background-size: contain;
     grid-row-start: 8;
     grid-column-start: 7;
     grid-row-end: 12;
     grid-column-end: 9;
-}</style><div class="tech"><a name="tech"></a><div class="tech__wrap"><div class="tech__webpack"></div><div class="tech__bem"></div><div class="tech__fancybox"></div><div class="tech__figma"></div><div class="tech__trio"></div><div class="tech__grid"></div><div class="tech__pug"></div><div class="tech__responsive"></div><div class="tech__vscode"></div></div></div><style>.portfolio{
+}
+
+@media (max-width: 840px){
+    .tech__wrap{
+        width: 380px;
+        height: 262px;
+    }
+}</style><style>.tech__img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    display: block;
+    overflow: hidden;
+}</style><div class="tech"><a name="tech"></a><div class="tech__wrap"><div class="tech__webpack scale"><img class="tech__img" src="media/images/techs/webpack.jpg"></div><div class="tech__bem scale"><img class="tech__img" src="media/images/techs/bem.jpg"></div><div class="tech__fancybox scale"><img class="tech__img" src="media/images/techs/fancybox.jpg"></div><div class="tech__figma scale"><img class="tech__img" src="media/images/techs/figma.jpg"></div><div class="tech__trio scale"><img class="tech__img" src="media/images/techs/trio.jpg"></div><div class="tech__grid scale"><img class="tech__img" src="media/images/techs/grid.jpg"></div><div class="tech__pug scale"><img class="tech__img" src="media/images/techs/pug.jpg"></div><div class="tech__responsive scale"><img class="tech__img" src="media/images/techs/responsive.jpg"></div><div class="tech__vscode scale"><img class="tech__img" src="media/images/techs/vscode.jpg"></div></div></div><style>.portfolio{
     width: 100%;
     height: 600px;
     background: var(--light_primary-color);
@@ -760,4 +732,16 @@
     font-weight: bold;
     font-size: 75px;
     color: var(--primary-color);
+}
+
+@media (max-width: 840px){
+    .logo {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 500px){
+    .logo {
+        
+    }
 }</style><div class="logo"><h1>PERCHATKIN</h1></div></div></div></body></html>

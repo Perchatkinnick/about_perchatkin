@@ -1,7 +1,5 @@
 @media (min-width: 1500px){
-    .navicon{
-        
-    }
+
 }
 
 @media (max-width: 1500px){
@@ -22,10 +20,6 @@
         margin-right: -50%;
         transform: translate(-50%, 0);
     }
-
-    .navicon{
-        
-    }
 }
 
 @media (max-width: 840px){
@@ -33,10 +27,6 @@
     .header {
         height: 100px;
         text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
-    }
-
-    .logo {
-        font-size: 45px;
     }
 
     .menu {
@@ -51,10 +41,6 @@
 
     .item {
         font-size: 16px;
-    }
-
-    .navicon{
-        
     }
 }
 
@@ -88,9 +74,5 @@
     .header {
         text-shadow: 1px 1px 2px #122907, 3px 3px 1px var(--light_primary-color);
         height: 50px;
-    }
-
-    .logo {
-        font-size: 25px;
     }
 }

@@ -1,15 +1,25 @@
 style
     include ./tech.css
 
+include ./__img/__img.pug
 .tech
     a(name="tech")
     .tech__wrap
-        .tech__webpack
-        .tech__bem 
-        .tech__fancybox 
-        .tech__figma 
-        .tech__trio 
-        .tech__grid 
-        .tech__pug 
-        .tech__responsive 
-        .tech__vscode
+        div(class="tech__webpack scale")
+            +img('media/images/techs/webpack.jpg')
+        div(class="tech__bem scale")
+            +img('media/images/techs/bem.jpg')
+        div(class="tech__fancybox scale")
+            +img('media/images/techs/fancybox.jpg')
+        div(class="tech__figma scale")
+            +img('media/images/techs/figma.jpg')
+        div(class="tech__trio scale")
+            +img('media/images/techs/trio.jpg')
+        div(class="tech__grid scale")
+            +img('media/images/techs/grid.jpg')
+        div(class="tech__pug scale")
+            +img('media/images/techs/pug.jpg')
+        div(class="tech__responsive scale")
+            +img('media/images/techs/responsive.jpg')
+        div(class="tech__vscode scale")
+            +img('media/images/techs/vscode.jpg')
