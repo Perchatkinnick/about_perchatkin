@@ -1,5 +1,6 @@
 .home{
     width: 100%;
+    line-height: 0 !important;
 }
 
 .homebgrd{

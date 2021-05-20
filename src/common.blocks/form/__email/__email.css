@@ -2,3 +2,9 @@
     width: 45%;
     margin: 10px;
 }
+
+@media (max-width: 1500px){
+    .form__email{
+        margin: 3px;
+    }
+}

@@ -4,4 +4,9 @@
     background-image: url(media/images/bgrd-contact.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    line-height: 1 !important;
+}
+
+@media (max-width: 1500px){
+    
 }

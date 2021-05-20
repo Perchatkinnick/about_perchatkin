@@ -4,3 +4,9 @@
     font-size: 30px;
     color: var(--primary-color);
 }
+
+@media (max-width: 1500px){
+    .title{
+        font-size: 20px;
+    }
+}

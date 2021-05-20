@@ -5,3 +5,10 @@
     padding: 10px;
     margin-left: 10%;
 }
+
+@media (max-width: 1500px){
+    .form{
+        font-size: 12px;
+        width: 400px;
+    }
+}

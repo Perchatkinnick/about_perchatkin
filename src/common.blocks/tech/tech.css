@@ -3,6 +3,7 @@
     background: var(--primary-color);
     display: flex;
     justify-content: center;
+    line-height: 1 !important;
 }
 
 .tech__wrap{
