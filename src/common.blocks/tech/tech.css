@@ -35,6 +35,7 @@
     -webkit-transform: rotate(-60deg) skewY(30deg);
     -ms-transform: rotate(-60deg) skewY(30deg);
     transform: rotate(-60deg) skewY(30deg);
+    
 }
 
 #categories li:nth-child(3n+2){

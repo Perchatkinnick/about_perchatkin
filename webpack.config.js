@@ -87,7 +87,9 @@ const plugins = () => {
             $: "jquery/dist/jquery.min.js",
             jQuery: "jquery/dist/jquery.min.js",
             "window.jQuery": "jquery/dist/jquery.min.js"
-        })
+        }),
+
+        new webpack.HotModuleReplacementPlugin()
     ];
 
     if (isProd) {
@@ -120,12 +122,13 @@ const fileName = ext => isDev ? `[name].${ext}` : `[name].[hash].${ext}`;
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
+    target: 'web',
     entry: {
         main: ['@babel/polyfill', './scripts/index', '@fancyapps/fancybox/dist/jquery.fancybox'],
     },
     output: {
         filename: fileName('js'),
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
         alias: {
@@ -141,6 +144,8 @@ module.exports = {
         port: 4200,
         open: isDev,
         hot: true,
+        
+        watchContentBase: true
     },
     devtool: isDev ? 'source-map' : false,
     plugins: plugins(),

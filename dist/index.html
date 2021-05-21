@@ -1,6 +1,6 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="786.98fa11b05d069843f894.js"></script><script defer="defer" src="main.98fa11b05d069843f894.js"></script><link href="main.98fa11b05d069843f894.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="212.17bd1d916921ecffc5e8.js"></script><script defer="defer" src="main.17bd1d916921ecffc5e8.js"></script><link href="main.17bd1d916921ecffc5e8.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
     position: relative;
     height: 100px;
     line-height: 1 !important;
@@ -309,6 +309,7 @@
     width: 100%;
     background: var(--light_primary-color);
     line-height: 1 !important;
+    
 }.about__text{
     width: 100%;
     
@@ -333,10 +334,20 @@
     grid-column-start: 3;
     grid-row-end: 2;
     grid-column-end: 5;
-
-    
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 840px){
+    .text__hi{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 680px){
+    .text__hi{
+        font-size: 20px;
+    }
 }.text__why{
     grid-row-start: 2;
     grid-column-start: 1;
@@ -483,7 +494,7 @@
 
 .slider {
     position: relative;
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
     margin: 10px;
   }
   
@@ -568,11 +579,11 @@
   }
   
   .slider__control[data-slide='prev']::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e76f51ff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
   }
   
   .slider__control[data-slide='next']::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e76f51ff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
   }
   
   /* индикаторы */
@@ -649,6 +660,7 @@
     -webkit-transform: rotate(-60deg) skewY(30deg);
     -ms-transform: rotate(-60deg) skewY(30deg);
     transform: rotate(-60deg) skewY(30deg);
+    
 }
 
 #categories li:nth-child(3n+2){
