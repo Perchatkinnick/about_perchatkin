@@ -1,9 +1,12 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="212.17bd1d916921ecffc5e8.js"></script><script defer="defer" src="main.17bd1d916921ecffc5e8.js"></script><link href="main.17bd1d916921ecffc5e8.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
-    position: relative;
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="212.7b5bc788ff025012f248.js"></script><script defer="defer" src="main.7b5bc788ff025012f248.js"></script><link href="main.7b5bc788ff025012f248.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
+    background: var(--primary-color);
     height: 100px;
     line-height: 1 !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }.header__hover{
     transition: all 0.9s ease-out;
     text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
@@ -300,12 +303,16 @@
 }</style><div class="navicon">&#9776;</div></div><div class="content"><style>.home{
     width: 100%;
     line-height: 0 !important;
-}
-
-.homebgrd{
-    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 90vh;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
     opacity: 0.5;
-}</style><div class="home"><img class="homebgrd" src="./media/images/bgrd.jpg"></div><style>.about{
+}</style><div class="home" style="background-image:url(media/images/bgrd.jpg)"></div><style>.about{
     width: 100%;
     background: var(--light_primary-color);
     line-height: 1 !important;

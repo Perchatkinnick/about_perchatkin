@@ -1,9 +1,13 @@
 .home{
     width: 100%;
     line-height: 0 !important;
-}
-
-.homebgrd{
-    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 90vh;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
     opacity: 0.5;
 }

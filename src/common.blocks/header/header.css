@@ -1,5 +1,8 @@
 .header{
-    position: relative;
+    background: var(--primary-color);
     height: 100px;
     line-height: 1 !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
