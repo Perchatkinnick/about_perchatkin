@@ -2,7 +2,14 @@
     background: var(--primary-color);
     height: 100px;
     line-height: 1 !important;
+    text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
     position: sticky;
     top: 0;
     z-index: 100;
+    opacity: 0.85;
+    box-shadow: 0 0 10px var(--light_primary-color);
+}
+
+.header .menu .item a{
+    color: var(--light_primary-color);
 }

@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     line-height: 1 !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .tech__wrap{

@@ -5,3 +5,26 @@
     text-shadow: none;
     margin: 0 4px;
 }
+
+.wrap{
+    position: relative;
+}
+
+.item__first{
+    white-space: nowrap;
+}
+
+.item__second{
+    color: var(--accent);
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 0;
+    transition: width 1s ease 0s;
+}
+
+.wrap:hover .item__second {
+    width: 100%;
+}

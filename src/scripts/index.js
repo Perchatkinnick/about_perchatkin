@@ -22,19 +22,19 @@ const header = document.querySelector('.header');
 const navicon = document.querySelector('.navicon');
 navicon.addEventListener('click', onNaviconClickHandler);
 
-if(supportsTouch){
-    showHeader();
-}else{
-    header.addEventListener('mouseover', onHeaderHoverHandler);
-}
+// if(supportsTouch){
+//     showHeader();
+// }else{
+//     header.addEventListener('mouseover', onHeaderHoverHandler);
+// }
 
-function onHeaderHoverHandler() {
-    header.classList.add('header__hover');
-}
+// function onHeaderHoverHandler() {
+//     header.classList.add('header__hover');
+// }
 
-function showHeader(){
-    header.classList.add('header__hover');
-}
+// function showHeader(){
+//     header.classList.add('header__hover');
+// }
 
 addGallery();
 

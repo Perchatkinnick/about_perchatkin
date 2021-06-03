@@ -5,4 +5,7 @@ style
 mixin item(content, link)
     - const classes = ['item', attributes.class]
     div(class=classes)
-        a(href=link) #{content}
+        a(href=link) 
+            .wrap
+                .item__first #{content}
+                .item__second #{content}

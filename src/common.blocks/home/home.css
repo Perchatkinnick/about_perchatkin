@@ -1,13 +1,28 @@
 .home{
     width: 100%;
     line-height: 0 !important;
+    background: url(media/images/bgrd.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center 100px;
     background-attachment: fixed;
-    min-height: 90vh;
+    background-repeat: no-repeat;
+    height: 850px;
     position: relative;
     display: block;
     overflow: hidden;
     z-index: 1;
     opacity: 0.5;
+}
+
+@media (max-width: 1500px){
+    .home{
+        height: 650px;
+    }
+}
+
+@media (max-width: 840px){
+    .home{
+        height: 450px;
+        background: url(media/images/bgrd840.jpg);
+    }
 }

@@ -62,6 +62,10 @@ const plugins = () => {
                  to: path.resolve(__dirname, 'dist/media/images/bgrd.jpg')
             }, 
             {
+                from: path.resolve(__dirname, 'src/media/images/bgrd840.jpg'),
+                to: path.resolve(__dirname, 'dist/media/images/bgrd840.jpg')
+            },
+            {
                 from: path.resolve(__dirname, 'src/media/images/gallery'),
                 to: path.resolve(__dirname, 'dist/media/images/gallery')
            },

@@ -3,4 +3,5 @@
     height: 600px;
     background: var(--light_primary-color);
     line-height: 1 !important;
+    padding-top: 100px;
 }
