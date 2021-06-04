@@ -1,14 +1,14 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="212.4a5035b5dd21d38ca45c.js"></script><script defer="defer" src="main.4a5035b5dd21d38ca45c.js"></script><link href="main.4a5035b5dd21d38ca45c.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AboutPerchatkin</title><script defer="defer" src="212.ea1b447588aa3645c551.js"></script><script defer="defer" src="main.ea1b447588aa3645c551.js"></script><link href="main.ea1b447588aa3645c551.css" rel="stylesheet"></head><body><div class="wrapper"><style>.header{
     background: var(--primary-color);
     height: 100px;
     line-height: 1 !important;
     text-shadow: 1px 1px 2px #072929, 8px 6px 1px var(--light_primary-color);
     position: sticky;
     top: 0;
-    z-index: 100;
-    opacity: 0.85;
+    z-index: 10000;
+    opacity: 0.9;
     box-shadow: 0 0 10px var(--light_primary-color);
 }
 
@@ -24,7 +24,7 @@
 }
         .header__menu{
     position: relative
-}</style><div class="header"><a name="home"></a><style>.logo{
+}</style><div class="header"><a name="home"></a><a><style>.logo{
     font-family: Montserrat;
     font-weight: bold;
     font-size: 75px;
@@ -41,7 +41,7 @@
     .logo {
         
     }
-}</style><div class="logo"><h2>PERCHATKIN</h2></div><div class="header__menu"><style>.menu{
+}</style><div class="logo"><h2>PERCHATKIN</h2></div></a><div class="header__menu"><style>.menu{
       width: 680px;
       float: right;
       z-index: 1000;
@@ -153,7 +153,7 @@
     left: 0;
     overflow: hidden;
     width: 0;
-    transition: width 1s ease 0s;
+    transition: width .7s ease 0s;
 }
 
 .wrap:hover .item__second {
@@ -333,31 +333,73 @@
 }</style><div class="navicon">&#9776;</div></div><div class="content"><style>.home{
     width: 100%;
     line-height: 0 !important;
+    position: relative;
+    z-index: 100;
+}
+
+.home__bgrd{
     background: url(media/images/bgrd.jpg);
     background-size: cover;
     background-position: center 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 850px;
-    position: relative;
+
     display: block;
     overflow: hidden;
     z-index: 1;
-    opacity: 0.5;
+    opacity: .4;
 }
 
 @media (max-width: 1500px){
-    .home{
+    .home__bgrd{
         height: 650px;
     }
 }
 
 @media (max-width: 840px){
-    .home{
+    .home__bgrd{
         height: 450px;
+        
+    }
+
+    .home__bgrd{
         background: url(media/images/bgrd840.jpg);
     }
-}</style><div class="home"><a name="home"></a></div><style>.about{
+}
+  .home__hi{
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    color: var(--accent);
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 40px;
+    
+}.home__im{
+    position: absolute;
+    top: 90px;
+    right: 3%;
+    height: 100px;
+    line-height: 40px;
+    color: var(--accent);
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}.home__spec{
+    position: absolute;
+    top: 130px;
+    right: 3%;
+    height: 100px;
+    width: 40%;
+    line-height: 25px;
+    color: var(--accent);
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+}</style><div class="home"><div class="home__bgrd"></div><div class="home__hi">Привет!</div><div class="home__im">Я Николай, Front End Developer,</div><div class="home__spec">специализирующийся на написании чистого, элегантного и эффективного кода.</div></div><style>.about{
     width: 100%;
     background: var(--light_primary-color);
     line-height: 1 !important;
@@ -443,7 +485,7 @@
     grid-column-end: 5;  
     display: flex;
     align-items: center;
-}</style><div class="text"><div class="text__hi">Привет! Я Николай, Front End Developer, специализирующийся на написании чистого, элегантного и эффективного кода.</div><div class="text__why">Я верстаю сайты. Зачем?</div><div class="text__first">Во-первых, мне это интересно. Ведь технологии не стоят на месте. Они гонятся за запросами Заказчика. Отслеживать эту гонку всегда здорово. Ещё лучше в ней участвовать.</div><div class="text__second">Во-вторых, мне нравится превращать сложные задачи в простые, красивые и интуитивно понятные конструкции.</div><div class="text__third">А в-третьих, профессия верстальщика делает мою жизнь независимой от места работы. Я люблю путешествовать. Мой офис там, где есть интернет, - под любой пальмой, в любом городе.</div><div class="text__about">Мне 35 лет. Кроме вёрстки увлекаюсь автомобилями. На своём авто я объехал всю Россию и Монголию. Люблю велосипеды - весь Дальний Восток, Южная Корея. А шагать пешком ещё лучше - за спиной ноут, спальник. На груди фотоаппарат. А впереди все тропинки мира!</div></div></div><div class="about__gallery"><style>.gallery{
+}</style><div class="text"><div class="text__hi"></div><div class="text__why">Я верстаю сайты. Зачем?</div><div class="text__first">Во-первых, мне это интересно. Ведь технологии не стоят на месте. Они гонятся за запросами Заказчика. Отслеживать эту гонку всегда здорово. Ещё лучше в ней участвовать.</div><div class="text__second">Во-вторых, мне нравится превращать сложные задачи в простые, красивые и интуитивно понятные конструкции.</div><div class="text__third">А в-третьих, профессия верстальщика делает мою жизнь независимой от места работы. Я люблю путешествовать. Мой офис там, где есть интернет, - под любой пальмой, в любом городе.</div><div class="text__about">Мне 35 лет. Кроме вёрстки увлекаюсь автомобилями. На своём авто я объехал всю Россию и Монголию. Люблю велосипеды - весь Дальний Восток, Южная Корея. А шагать пешком ещё лучше - за спиной ноут, спальник. На груди фотоаппарат. А впереди все тропинки мира!</div></div></div><div class="about__gallery"><style>.gallery{
   /* transform: rotate(7deg); */
   width: 100%;
   display: flex;

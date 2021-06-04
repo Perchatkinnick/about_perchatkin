@@ -22,7 +22,7 @@
     left: 0;
     overflow: hidden;
     width: 0;
-    transition: width 1s ease 0s;
+    transition: width .7s ease 0s;
 }
 
 .wrap:hover .item__second {

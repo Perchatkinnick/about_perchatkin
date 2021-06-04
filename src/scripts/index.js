@@ -42,4 +42,12 @@ const slider = new ChiefSlider('.slider', {
     loop: true
   });
 
-  
+const logo = document.getElementsByClassName('logo');
+for(let i =0; i<logo.length; i++){
+  logo[i].addEventListener('click', onLogoClickHandler);
+}
+
+function onLogoClickHandler() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}

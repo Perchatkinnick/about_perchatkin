@@ -1,0 +1,11 @@
+.home__im{
+    position: absolute;
+    top: 90px;
+    right: 3%;
+    height: 100px;
+    line-height: 40px;
+    color: var(--accent);
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}

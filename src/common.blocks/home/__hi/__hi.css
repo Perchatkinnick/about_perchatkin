@@ -1,0 +1,11 @@
+.home__hi{
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    color: var(--accent);
+    font-size: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 40px;
+    
+}
